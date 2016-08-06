@@ -14,12 +14,12 @@ int c=0;
 
 for(int i=0;i<input;i++)
 {
-	int a=i;
-	int b=i;
+	int p=i;
+	int q=i;
 while(a!=0)
 {
-	b=b*(a%10);
-	a=a/10;
+	q=q*(p%10);
+	p=p/10;
 }
 if(input==b)
 {
